@@ -41,7 +41,39 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
         print("kichik");
         cactusController!.stop();
         dinosaurController!.stop();
-
+        showDialog(
+            useRootNavigator: false,
+            context: context,
+            builder: (context) {
+              return AlertDialog(
+                title: Container(
+                  color: Colors.white,
+                  child: Center(
+                    child: Text("You Lost 😒 Try again?"),
+                  ),
+                ),
+                actions: [
+                  ElevatedButton(
+                      onPressed: () {
+                        setState(() {
+                          Navigator.pop(context);
+                          cactusController!.reset();
+                          dinosaurController!.reset();
+                          cactusController!.forward();
+                        });
+                      },
+                      child: Text("Yes")),
+                  ElevatedButton(
+                      onPressed: () {
+                        setState(() {
+                          
+                          exit(0);
+                        });
+                      },
+                      child: Text("No"))
+                ],
+              );
+            });
       }
       setState(() {});
     });
@@ -100,5 +132,4 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
       ),
     );
   }
-
 }
