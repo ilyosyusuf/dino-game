@@ -42,7 +42,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
         cactusController!.stop();
         dinosaurController!.stop();
         showDialog(
-            useRootNavigator: false,
+          barrierDismissible: false,
             context: context,
             builder: (context) {
               return AlertDialog(
