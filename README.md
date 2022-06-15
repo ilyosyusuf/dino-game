@@ -1,16 +1,10 @@
 # mario
 
-A new Flutter project.
+No Internet Dino game
 
-## Getting Started
+![dinogame1](https://user-images.githubusercontent.com/97497314/173840197-bd86bfe3-ad65-44eb-b844-2f4e4df2fbb5.jpg)
+![dinogame2](https://user-images.githubusercontent.com/97497314/173840286-956cb150-76b2-413a-8c1c-3bd50dd8c0ee.jpg)
 
-This project is a starting point for a Flutter application.
+When user lost game
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![dinogame3](https://user-images.githubusercontent.com/97497314/173840386-997f8519-f0ec-4ead-9884-c6d90b8d9946.jpg)
